@@ -2,11 +2,11 @@
   <div>
     <ul>
       <TodoItem 
-      v-for="(todo,i) of todos" 
+      v-for="(todo,i) of todos" :key="todo"
       v-bind:todo="todo" 
       v-bind:index="i"
       v-on:remove-todo="removeTodo" />
-    </ul>
+    </ul> {{todo}}
   </div>
 </template>
 
@@ -27,6 +27,7 @@ export default {
 
 <style scoped>
 ul {
+  color: black;
   list-style: none;
   margin: 0;
   padding: 0;
