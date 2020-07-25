@@ -104,8 +104,10 @@
         </div>
       </div>
       <div class="col-10">
-        <router-view />
+       <div class="right-panel">
+              <router-view />
       </div>
+         </div>
     </div>
   </div>
 </template>
@@ -202,5 +204,8 @@ ul {
 }
 .nav-top {
   margin-bottom: 80px;
+}
+.right-panel{
+  min-height: 100vh;
 }
 </style>
