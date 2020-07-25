@@ -15,17 +15,7 @@ export default {
   name: "Shoppers",
   data() {
     return {
-      todos: [
-        { id: 1, title: "Покупатель 1", completed: false },
-        { id: 2, title: "Покупатель 2", completed: false },
-        { id: 3, title: "Покупатель 3", completed: false },
-        { id: 4, title: "Покупатель 4", completed: false },
-        { id: 5, title: "Покупатель 5", completed: false },
-        { id: 6, title: "Покупатель 6", completed: false },
-        { id: 7, title: "Покупатель 7", completed: false },
-        { id: 8, title: "Покупатель 8", completed: false },
-        { id: 9, title: "Покупатель 9", completed: false }
-      ]
+      todos: []            ]
     };
   },
   methods: {
