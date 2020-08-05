@@ -1,28 +1,14 @@
 <template>
-  <div class="container col-12">
-    <div class="header-right">
-      <div class="admin">
-        <b-list-group style="max-width: 300px;">
-          <b-list-group-item class="d-flex align-items-center">
-            <b-dropdown aria-describedby="dropdown-header-label" text="John Doe" class="m-2">
-              <b-dropdown-item-button aria-describedby="dropdown-header-label">Admin 1</b-dropdown-item-button>
-              <b-dropdown-item-button aria-describedby="dropdown-header-label">Admin 2</b-dropdown-item-button>
-            </b-dropdown>
-            <b-avatar class="mr-3"></b-avatar>
-          </b-list-group-item>
-        </b-list-group>
-      </div>
-    </div>
-
-    <div class="sales-top col-12">
-      <div class="col-7">
+  <div class="container-fluid col-md">
+    <div class="sales-top row wow fadeIn">
+      <div class="col-md-7 mb-4">
         <h4 class="col-5">Аналитика продаж</h4>
 
-        <div>
+        <div class="col-5">
           <img src="../image/graph.jpg" />
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-md-5 mb-4">
         <div>
           <div class="sales-top-right">
             <div class="txt">
@@ -109,11 +95,6 @@ export default {};
   margin-top: 10px;
   background-color: white;
 }
-.admin {
-  margin-left: 70%;
-  justify-content: end;
-  text-align: right;
-}
 
 h5 {
   margin: 0;
@@ -159,9 +140,9 @@ h4 {
   justify-content: center;
 }
 
-.sales-bottom {
+.sales-bottom, .col-md-5  {
   display: flex;
-  margin-bottom: 200px;
+
 }
 .sales-bottom-left {
   margin: 10px;
@@ -190,7 +171,7 @@ h4 {
 }
 .bottom-btn {
   margin-top: 20px;
-  width: 50px;
+  width: 150px;
   font-size: 20px;
 }
 </style>
