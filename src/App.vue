@@ -208,10 +208,11 @@ h5 {
 .list-group .list-group-item {
   background-color: rgba(30, 41, 51, 0.8);
   color: white;
+    border: none;
 }
 
 .active {
-  background-color: rgba(30, 41, 51, 0.1);
+  background-color: yellow;
   color: white;
 }
 ul {
@@ -242,4 +243,5 @@ nav .container-fluid {
 .admin {
   margin-left: 80%;
 }
+
 </style>
