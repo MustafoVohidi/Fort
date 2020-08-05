@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid col-md">
     <div class="sales-top row wow fadeIn">
-      <div class="col-md-7 mb-4">
+      <div class="col-xs-6 mb-4">
         <h4 class="col-5">Аналитика продаж</h4>
 
         <div class="col-5">
@@ -45,12 +45,12 @@
       </div>
     </div>
     <div class="sales-bottom">
-      <div class="col-7">
+      <div class="col-xs-8 mb-4">
         <div class="sales-bottom-left">
           <img src="../image/map.jpg" />
         </div>
       </div>
-      <div class="col-5">
+      <div class="col-4 mb-4">
         <div class="sales-bottom-right">
           <img src="../image/help.jpg" />
           <div class="txt-bottom">
@@ -161,7 +161,7 @@ h4 {
   background: #fff;
   color: #000;
   text-align: center;
-  justify-content: center;
+  justify-content: left;
   border-radius: 10px;
 }
 .txt-bottom {
