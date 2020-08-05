@@ -211,8 +211,8 @@ h5 {
     border: none;
 }
 
-.active {
-  background-color: yellow;
+.list-group .active {
+  background-color: rgb(65, 78, 83);
   color: white;
 }
 ul {
