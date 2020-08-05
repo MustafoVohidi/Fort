@@ -211,9 +211,9 @@ h5 {
     border: none;
 }
 
-.list-group .active {
+.list-group .list-group-item:hover {
   background-color: rgb(65, 78, 83);
-  color: white;
+  border-radius: 5px;
 }
 ul {
   color: white;
